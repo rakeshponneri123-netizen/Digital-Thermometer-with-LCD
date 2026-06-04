@@ -1,0 +1,26 @@
+========================================================================
+HARDWARE INTERFACE & LCD DISPLAY SPECIFICATIONS
+========================================================================
+
+1. PHYSICAL HARDWARE LOOK AND FEEL:
+- A compact, handheld enclosure featuring a thermal probe tip at the front.
+- A built-in central viewing cut-out for a 16x2 alphanumeric LCD screen.
+- A single mechanical push-button to toggle between Power/Reset and unit conversion.
+
+2. LCD UI DISPLAY MATRIX LAYOUT (16 Columns x 2 Rows):
+
+[NORMAL SYSTEM RUNNING SCREEN]
+--------------------------------
+| TEMP: 37.2 C     |  <- Row 1 (Shows Live Calculated Temp)
+| STATUS: HEALTHY  |  <- Row 2 (Shows System Diagnostic Health)
+--------------------------------
+
+[ELEVATED TEMPERATURE ALERT SCREEN]
+--------------------------------
+| TEMP: 39.1 C     |  <- Row 1 (Flashes real-time reading)
+| ALARM: HIGH FEVER|  <- Row 2 (Triggers text alert alongside buzzer pulse)
+--------------------------------
+
+3. SYSTEM CONTROL TELEMETRY:
+- Push Button Action: Short press switches the unit display scale between Celsius (C) and Fahrenheit (F).
+- Power Saving: Automated shutdown trigger if the thermal probe notes zero state change for 60 consecutive seconds.
