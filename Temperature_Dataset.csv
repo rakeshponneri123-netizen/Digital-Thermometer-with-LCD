@@ -1,0 +1,9 @@
+Log_ID,Time_Stamp,Sensor_Voltage_V,Temperature_Celsius,Temperature_Fahrenheit,Status_Indicator
+LOG_01,09:00 AM,2.98,24.5,76.1,Normal Ambient
+LOG_02,10:00 AM,3.12,27.0,80.6,Normal Ambient
+LOG_03,11:00 AM,3.25,31.2,88.2,Warm Ambient
+LOG_04,12:00 PM,3.40,36.5,97.7,Normal Body Temp
+LOG_05,01:00 PM,3.44,37.2,99.0,Normal Body Temp
+LOG_06,02:00 PM,3.52,38.5,101.3,Elevated Fever
+LOG_07,03:00 PM,3.55,39.1,102.4,High Fever
+LOG_08,04:00 PM,3.32,34.0,93.2,Cool Ambient
